@@ -1,3 +1,5 @@
+// JWT Audience Claims.
+// You could add Audience claimns either in env file or in constant like following..
 module.exports.JWT_OPTIONS = {
   MEMBER_AUDIENCE: ["SHOW_FAVORITE", "LOGIN", "SHOW_BOOKS"],
   ADMIN_AUDIENCE: [
